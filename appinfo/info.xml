@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Mike Schmalz <mikeschmalz@web.de>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>testappcloud</id>
+    <name>Test App Cloud</name>
+    <summary>Test App für cloud</summary>
+    <description><![CDATA[Die volle Beschreibung kommt später]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="mikeschmalz@web.de" >Mike Schmalz</author>
+    <namespace>TestAppCloud</namespace>
+    <category>tools</category>
+    <bugs>https://cloud.prb9uyr9klongy74.myfritz.net</bugs>
+    <dependencies>
+        <nextcloud min-version="24" max-version="26"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Test App Cloud</name>
+            <route>testappcloud.page.index</route>
+        </navigation>
+    </navigations>
+</info>
